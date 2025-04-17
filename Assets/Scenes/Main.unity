@@ -11324,9 +11324,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d429afa28b724d23a2b563ecae4f865, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootSpeed: 30
-  shootPoint: {fileID: 66758865}
-  food: {fileID: 598188892439967540, guid: 195e9a3e01c934bdcbb17719b1f38e19, type: 3}
 --- !u!4 &669423313 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5220891408672472619, guid: 2d48a5ba5e9c424489a39d7577e631b8, type: 3}
@@ -32386,7 +32383,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1776635732}
   m_Layer: 0
-  m_Name: SpawnPoints
+  m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39226,7 +39223,6 @@ GameObject:
   - component: {fileID: 2803153993282483379}
   - component: {fileID: 2451476525925574446}
   - component: {fileID: 5296460023276112343}
-  - component: {fileID: 7673344882566302624}
   m_Layer: 0
   m_Name: Target
   m_TagString: Untagged
@@ -39234,19 +39230,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &7673344882566302624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7673344882566302623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bc66f3ae7dd2474ba50ce71784f279a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPointHolder: {fileID: 1776635732}
 --- !u!1 &8161558180516952181
 GameObject:
   m_ObjectHideFlags: 0

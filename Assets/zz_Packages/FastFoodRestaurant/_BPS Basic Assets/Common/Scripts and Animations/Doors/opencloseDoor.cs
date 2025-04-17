@@ -5,7 +5,7 @@ namespace SojaExiles
 {
 	public class OpenCloseDoor : MonoBehaviour
 	{
-		[SerializeField] private Transform player;
+		[SerializeField] public Transform player;
 		private Animator animator;
 		private bool open;
 
